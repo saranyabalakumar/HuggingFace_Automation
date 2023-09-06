@@ -1,0 +1,9 @@
+transformers
+torch
+tensorflow
+flax
+pandas
+sentencepiece
+psutil
+thop
+
