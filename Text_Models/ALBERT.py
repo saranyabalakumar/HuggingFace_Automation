@@ -90,7 +90,7 @@ gops = flops / 1e9  # Convert FLOPs to GOPs
 print(f"Number of GOPs: {gops} GOPs")
 
 # Print a descriptive message indicating the beginning of the script
-print("ALBERT_PyTorch_SequenceClassification--single-label-classification_textattack/albert-base-v2-imdb")
+print("ALBERT_PyTorch_SequenceClassification-single-label-classification_textattack/albert-base-v2-imdb")
 
 # Load the ALBERT model for sequence classification using TextAttack
 from transformers import AutoTokenizer, AlbertForSequenceClassification

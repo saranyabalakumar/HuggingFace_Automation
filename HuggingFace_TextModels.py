@@ -2,7 +2,7 @@ import os
 import glob
 
 # Define the folder path where your Python code files are located
-folder_path = '/home/saranya-19160/Saranya/Huggingface/Text_Models'
+folder_path = '$HOME_DIR/HuggingFace_Automation/Text_Models'
 
 # Use glob to get a list of all Python files in the folder
 python_files = glob.glob(os.path.join(folder_path, '*.py'))

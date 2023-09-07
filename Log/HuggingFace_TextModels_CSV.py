@@ -36,7 +36,7 @@ for line in lines:
             text_model, framework, use_case, model = parts[:4]
 
 # Create a DataFrame from the extracted data
-df = pd.DataFrame(data, columns=["TextModels", "Framework", "UseCase", "Models", "Latency in ms", "CPU Utilization in %", "Memory Utilization in %", "GOPs"])
+df = pd.DataFrame(data, columns=["Text Models", "Framework", "Model Type", "Models", "Latency in ms", "CPU Utilization in %", "Memory Utilization in %", "GOPs"])
 
 # Write the DataFrame to a CSV file
 df.to_csv("HuggingFace_TextModels.csv", index=False)
